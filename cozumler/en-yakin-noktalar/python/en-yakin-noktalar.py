@@ -15,7 +15,7 @@ class Facebook:
         self.points = [[1, 2], [5, 7], [8, 9], [2, 3], [2, 2]]  # (x2,y2)
         self.origin = (0, 0)  # (x1,y1)
 
-    def find_k_nearest_neighbor(self, k_parameter):  # O(n)
+    def find_k_nearest_neighbor(self, k_parameter):  
         return sorted([self.metric(point) for point in self.points], key=lambda k: k.length)[:k_parameter]
 
     def metric(self, point):
