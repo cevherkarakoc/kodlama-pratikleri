@@ -1,0 +1,29 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+### Linux ###
+*~
+
+### PyCharm ###
+.idea/
+
+### Python ###
+__pycache__/
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+env/
+ENV/
+venv/
+console.py
+
+doc/
+
+teleskop/streams.py
